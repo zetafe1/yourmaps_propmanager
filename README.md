@@ -5,7 +5,13 @@ While the best method for placing or deleting objects in RedM is by editing bina
 
 This tool offers a better and free alternative to paid scripts solutions while avoiding outdated and inefficient XML methods this will help you to manage props in the world or inside MLO on your RP Server. 
 
-Enjoy a smoother mapping experience in RedM!
+This script allows you to:
+
+    Delete all objects inside a polyzone (deleteAll = true).
+    Delete specific objects (deleteAll = false).
+    Spawn objects dynamically in specific zones.
+    Remove spawned objects when leaving the area.
+    Optimize performance (no excessive object duplication or high CPU usage).
 
 Before deletion:
 
@@ -23,7 +29,13 @@ After spawing:
 
 ![Screenshot_7](https://github.com/user-attachments/assets/2875d8a9-d3db-4044-abd9-e81e98920356)
 
-to get coords to spawn object as vec3(x,y,z) and rotation vec3(x,y,z) of your spawned prop you can use Spooner export as Script or YourMAPS CoordsTool.
+To get coords to spawn object as vec3(x,y,z) and rotation vec3(x,y,z) of your spawned prop you can use Spooner export as Script or YourMAPS CoordsTool.
+
+Feel free to use, modify, and improve this code for your own RedM projects! 
+Feel free to credit the original creator if sharing it publicly.
+If you improve it, consider sharing your updates with the community!
+
+Tafé
 
 PS: Screenshots show YourMAPS CoordsTool which is not included on the code!
 
