@@ -1,5 +1,5 @@
 # YourMAPS Prop Manager
-Here you have a free, optimized, and flexible script for placing and managing props in RedM.
+Here you have a free, optimized, and flexible script for deleting props in RedM.
 
 While the best method for placing objects in RedM is by editing binary .YMAP or .YTYP files using tools like Codex by Dexyfex, this script provides a great alternative for those who want to avoid the learning how to edit binary .YMAP & .YTYP or the XML cleaning props method, which is notorious for negatively impacting server performance.
 
