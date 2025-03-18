@@ -1,17 +1,26 @@
 # YourMAPS Prop Manager
-Here you have a free, optimized, and flexible script for deleting and adding props in RedM.
+Here you have a free, optimized, and flexible script to manage props in RedM, adding and deleting!
 
-While the best method for placing or deleting objects in RedM is by editing binary .YMAP or .YTYP files for the MLOs using tools like Codex by Dexyfex, this script provides a great alternative for those who want to avoid the learning how to edit binary .YMAP & .YTYP or using the obsolete XML cleaning/loading props method, which is notorious for negatively impacting server performance.
+While the best method for placing or deleting objects in RedM is by editing binary .YMAP or .YTYP files using tools like Codex by Dexyfex, this script provides an excellent alternative for server admins who prefer not to modify binary files or deal with the complexity of MLO editing.
 
-This tool offers a better and free alternative to paid scripts solutions while avoiding outdated and inefficient XML methods this will help you to manage props in the world or inside MLO on your RP Server. 
+This tool allows you to:
 
-This script allows you to:
+    Delete all objects dynamically within a defined polyzone (deleteAll = true).
+    Delete specific objects only (deleteAll = false).
+    Spawn objects dynamically at set locations.
+    Remove spawned objects when leaving the area (preventing performance issues).
+    Optimize RedM performance by avoiding the outdated and inefficient XML method.
 
-    Delete all objects inside a polyzone (deleteAll = true).
-    Delete specific objects (deleteAll = false).
-    Spawn objects dynamically in specific zones.
-    Remove spawned objects when leaving the area.
-    Optimize performance (no excessive object duplication or high CPU usage).
+No need to modify .YMAP or .YTYP files.
+Avoids using the old XML method, which is bad for performance.
+A free alternative to paid prop management scripts.
+Simple to configure via config.lua.
+Performance optimized (avoids unnecessary object duplication and excessive processing).
+
+**Open Source & Free to Use**
+
+This script is free to use and modify for your RedM RP Server.
+If you improve it, consider sharing your updates with the community!
 
 Before deletion:
 
@@ -31,9 +40,8 @@ After spawing:
 
 To get coords to spawn object as vec3(x,y,z) and rotation vec3(x,y,z) of your spawned prop you can use Spooner export as Script or YourMAPS CoordsTool.
 
-Feel free to use, modify, and improve this code for your own RedM projects! 
+This tool is a great alternative to manually editing binary MLO files or using paid prop management scripts. It gives server owners more control over world props.
 Feel free to credit the original creator if sharing it publicly.
-If you improve it, consider sharing your updates with the community!
 
 Tafé
 
