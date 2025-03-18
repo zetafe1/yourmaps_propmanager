@@ -83,7 +83,6 @@ local function SpawnObjectsInZone(zone)
     end
 
     for _, obj in ipairs(zone.spawnObjects) do
-        -- Check if object is already spawned (avoid duplication)
         local alreadySpawned = false
         for _, spawnedObj in ipairs(SpawnedObjects[zone.name]) do
             if DoesEntityExist(spawnedObj) then
@@ -92,7 +91,6 @@ local function SpawnObjectsInZone(zone)
             end
         end
 
-        -- Only spawn if object is not already present
         if not alreadySpawned then
             RequestModel(obj.model)
             while not HasModelLoaded(obj.model) do
@@ -104,7 +102,6 @@ local function SpawnObjectsInZone(zone)
             SetEntityRotation(spawnedObj, obj.rotation.x, obj.rotation.y, obj.rotation.z, 2, true)
             FreezeEntityPosition(spawnedObj, true)
 
-            -- ✅ Mark model as no longer needed
             SetModelAsNoLongerNeeded(obj.model)
 
             table.insert(SpawnedObjects[zone.name], spawnedObj)
