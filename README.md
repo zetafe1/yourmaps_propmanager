@@ -15,4 +15,5 @@ After:
 
 ![Screenshot_5](https://github.com/user-attachments/assets/d449ac64-1817-4bd7-9ecf-adca3b50442f)
 
-PS: Screenshots show YourMAPS Tool Coords which is not included on the code!
+PS: Screenshots show YourMAPS CoordsTool which is not included on the code!
+
