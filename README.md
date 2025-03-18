@@ -23,7 +23,7 @@ After spawing:
 
 ![Screenshot_7](https://github.com/user-attachments/assets/2875d8a9-d3db-4044-abd9-e81e98920356)
 
-to get coords to spawn object as vec3(x,y,z) and rotation vec3(x,y,z) of you prop you can use YourMAPS CoordsTool or export on your Spooner as for Script 
+to get coords to spawn object as vec3(x,y,z) and rotation vec3(x,y,z) of your spawned prop you can use Spooner export as Script or YourMAPS CoordsTool.
 
 PS: Screenshots show YourMAPS CoordsTool which is not included on the code!
 
